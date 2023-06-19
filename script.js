@@ -24,6 +24,7 @@ let :
 
 let num1="jfie"
 num1 = "Mathura"
+console.log(num1)
 
 /*
 const : 
