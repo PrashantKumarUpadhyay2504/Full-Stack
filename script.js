@@ -59,16 +59,25 @@ console.log('5'==5)
 console.log('5'===5)
 
 // Disision
-
+// if.. else Statement
 let score=50
 if(score>40){
     console.log("hello")
 }else{
     console.log("hiii")
 }
-
+//Ternaryt Operator
 let istrue=true;
-istrue?true:false
+istrue?console.log("hello"):console.log("hi")
 
 
+//Question : 
+let score1=80
+if(score1=>80){
+    console.log("pass")
+}else if(score1<80 && score1>=70){
+    console.log("nice")
+}else{
+    console.log("failed")
+}
 
