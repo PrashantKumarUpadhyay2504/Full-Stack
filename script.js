@@ -32,5 +32,43 @@ const :
 */
 
 const pi=3.14
+console.log(pi)
+
+/*
+ Undefined */
+ let nam1
+ console.log()
+ 
+ /*not defined */
+ console.log()
+ /*
+ Null
+*/
+
+let sr=50
+let to=sr==50
+console.log(to)
+
+/* Operators
+== vs ===
+*/
+// ==
+console.log('5'==5)
+
+//===
+console.log('5'===5)
+
+// Disision
+
+let score=50
+if(score>40){
+    console.log("hello")
+}else{
+    console.log("hiii")
+}
+
+let istrue=true;
+istrue?true:false
+
 
 
