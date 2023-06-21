@@ -40,7 +40,7 @@ console.log(pi)
  console.log()
  
  /*not defined */
- console.log()
+ console.log(nam1)
  /*
  Null
 */
@@ -73,11 +73,76 @@ istrue?console.log("hello"):console.log("hi")
 
 //Question : 
 let score1=80
-if(score1=>80){
+if(score1>=80){
     console.log("pass")
 }else if(score1<80 && score1>=70){
     console.log("nice")
 }else{
     console.log("failed")
+}
+
+
+//Functions
+
+// argument 
+
+
+/*paramenter
+
+eg:  function add(num)
+
+*/
+
+// function add(info) // parameter
+// {
+//     console.log(info);
+//     console.log(info.name);
+//     console.log(info.a);
+// }
+
+// let obj  ={
+//     name:"Piyush",
+//     Roll_No: 201500505,
+//     Contact:8077122833
+// }
+
+// add(obj)
+
+// let add1= {
+//     java: 50,
+//     fulls: 60,
+//     sum: function(){
+//         console.log(this.java + " " + this.fulls)
+//     }
+// }
+
+// add1.sum()
+
+
+// Array : it is a container which can store any kind of datatype 
+
+// let arr= [10,"hello",4.5,'v',true]
+// console.log(arr)
+
+// Loop: 
+
+// for(let i =0 ; i<10 ; i++){
+//     console.log(i)
+// }
+
+let arr1 = [1,2,3,4,5,6,7]
+
+
+//  for in Loop is for index so that's why its starts from  0 : 
+
+for(let i in arr1){
+    console.log(i)
+
+}
+
+//  for of Loop is for value or element to print : 
+for(let i of arr1){
+    console.log(i)
+
 }
 
