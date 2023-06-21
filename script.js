@@ -93,42 +93,42 @@ eg:  function add(num)
 
 */
 
-// function add(info) // parameter
-// {
-//     console.log(info);
-//     console.log(info.name);
-//     console.log(info.a);
-// }
+function add(info) // parameter
+{
+    console.log(info);
+    console.log(info.name);
+    console.log(info.a);
+}
 
-// let obj  ={
-//     name:"Piyush",
-//     Roll_No: 201500505,
-//     Contact:8077122833
-// }
+let obj  ={
+    name:"Piyush",
+    Roll_No: 201500505,
+    Contact:8077122833
+}
 
-// add(obj)
+add(obj)
 
-// let add1= {
-//     java: 50,
-//     fulls: 60,
-//     sum: function(){
-//         console.log(this.java + " " + this.fulls)
-//     }
-// }
+let add1= {
+    java: 50,
+    fulls: 60,
+    sum: function(){
+        console.log(this.java + " " + this.fulls)
+    }
+}
 
-// add1.sum()
+add1.sum()
 
 
 // Array : it is a container which can store any kind of datatype 
 
-// let arr= [10,"hello",4.5,'v',true]
-// console.log(arr)
+let arr= [10,"hello",4.5,'v',true]
+console.log(arr)
 
 // Loop: 
 
-// for(let i =0 ; i<10 ; i++){
-//     console.log(i)
-// }
+for(let i =0 ; i<10 ; i++){
+    console.log(i)
+}
 
 let arr1 = [1,2,3,4,5,6,7]
 
