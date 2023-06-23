@@ -117,7 +117,10 @@ let add1= {
 }
 
 add1.sum()
-
+// another way for function declaration 
+const hi = ()=>{
+    return 1;
+}
 
 // Array : it is a container which can store any kind of datatype 
 
@@ -143,6 +146,47 @@ for(let i in arr1){
 //  for of Loop is for value or element to print : 
 for(let i of arr1){
     console.log(i)
-
 }
 
+// foreach loop is mixture of forin and forof.
+// it does not return any result
+
+// eg:1
+let ar1=[1,2,3,4,5,6]
+ar1.forEach((ele,index, ar1)=>{
+    console.log(ele,index,ar1)
+})
+
+// eg:2
+let n=ar1.forEach((ele,index, ar1)=>{
+    // console.log(ele,index,ar1)
+    return ele
+})
+console.log(n)
+
+// Map is also use for array printing . it can return the result
+
+let ar2=[1,2,3,4,5]
+
+let new1= ar2.map((ele,index,ar2)=>{
+    return ele
+})
+
+console.log(new1)
+
+// filter :  it is way for filtering the unwanted element from array
+
+let new2= ar2.filter((ele)=>{
+    return ele>3
+})
+
+console.log(new2)
+
+// reduce
+
+
+let sum= ar2.reduce((a,b)=>{
+    return a+b;
+})
+
+console.log(sum)
