@@ -175,7 +175,7 @@ let new1= ar2.map((ele,index,ar2)=>{
 console.log(new1)
 
 // filter :  it is way for filtering the unwanted element from array
-
+ar2=[1,2,3,4,5]
 let new2= ar2.filter((ele)=>{
     return ele>3
 })
@@ -183,10 +183,21 @@ let new2= ar2.filter((ele)=>{
 console.log(new2)
 
 // reduce
+ar2=[1,2,3,4,5]
 
-
-let sum= ar2.reduce((a,b)=>{
+let sum= ar2.reduce((a,b,)=>{
     return a+b;
 })
 
 console.log(sum)
+
+
+/*
+javascript is synchronous but it behaves asynchronous
+
+*/
+
+
+
+
+
