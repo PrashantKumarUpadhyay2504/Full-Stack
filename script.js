@@ -254,11 +254,3 @@ function a(){
 
 let arr2=[1,2,3,4,'piyush',true]
 
-
-
-
-
-
-
-
-
