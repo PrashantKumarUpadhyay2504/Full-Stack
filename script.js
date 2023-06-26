@@ -246,10 +246,10 @@ function a(){
 
 // a()
 // or 
-a()()
+// a()()
 // or 
-let k=a()
-console.log(k)
+// let k=a()
+// console.log(k)
 // k()
 
 let arr2=[1,2,3,4,'piyush',true]
