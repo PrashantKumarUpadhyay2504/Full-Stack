@@ -196,8 +196,66 @@ console.log(sum)
 javascript is synchronous but it behaves asynchronous
 
 */
+// Scope 1. Global variable 2. Local Variable
 
-// Scope : 
+var a= 5
+function add(){
+    console.log(a)
+}
+
+add()
+
+
+{
+    const a1=90
+    let b=5
+}
+
+// console.log(a1)
+console.log(b)
+
+// console.log(c)
+// var d = 5
+let c=5
+
+
+console.log(c)
+
+
+// higher order function : 
+function a(fn){
+    console.log('inside a')
+    fn()
+}
+
+function b(){
+    console.log("inside b")
+}
+
+
+// a(b)
+
+
+function a(){
+    console.log('a')
+    function b(){
+        console.log('b')
+    }
+    return b
+}
+
+// a()
+// or 
+a()()
+// or 
+let k=a()
+console.log(k)
+// k()
+
+let arr2=[1,2,3,4,'piyush',true]
+
+
+
 
 
 
