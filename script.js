@@ -197,6 +197,9 @@ javascript is synchronous but it behaves asynchronous
 
 */
 
+// Scope : 
+
+
 
 
 
