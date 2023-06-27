@@ -252,7 +252,7 @@ function a(){
 // console.log(k)
 // k()
 
-let arr2=[1,2,3,4,'piyush',"Raman",true]
+let arr2=[1,2,3,4,'piyush','Raman','true']
 
 // function filtering(){
 //     var res=[]
@@ -266,3 +266,37 @@ let arr2=[1,2,3,4,'piyush',"Raman",true]
 
 // filtering()
 
+
+function getstring(item){
+    return typeof item == 'string'
+}
+
+function getNumbers(item){
+    return typeof item == 'number'
+}
+
+
+function get (arr,getString){
+    var res= []
+    for( let item of arr){
+        if(getString(item)){
+            res.push(item)
+        }
+    }
+    return res
+}
+
+console.log(get(arr2,getstring))
+console.log(get(arr2,getNumbers))
+
+
+function outer (){
+    let user='gla'
+    function inner (){
+        console.log(user)
+    }
+    return inner
+}
+
+let inner=outer()
+inner()
