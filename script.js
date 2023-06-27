@@ -252,5 +252,17 @@ function a(){
 // console.log(k)
 // k()
 
-let arr2=[1,2,3,4,'piyush',true]
+let arr2=[1,2,3,4,'piyush',"Raman",true]
+
+// function filtering(){
+//     var res=[]
+//     for(let item of arr2){
+//         if(typeof item == "string"){
+//             res.push(item)
+//         }
+//     }
+//     console.log(res)
+// }
+
+// filtering()
 
