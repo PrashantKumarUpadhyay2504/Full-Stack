@@ -303,3 +303,32 @@ let inner=outer()
 console.log(inner())
 
 
+// Closer : 
+
+// synchronous 
+console.log("3")
+
+console.log("4")
+
+console.log("5")
+
+// asynchronous: (not in order ) in that case , we use stack and queue
+
+console.log("3")
+
+setTimeout(()=>{
+    console.log("4")
+},4000)
+
+setTimeout(()=>{
+    console.log("2")
+},0)
+
+console.log("5")
+
+
+
+// call back hell
+
+
+
