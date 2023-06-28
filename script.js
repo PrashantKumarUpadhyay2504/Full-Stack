@@ -252,7 +252,7 @@ function a(){
 // console.log(k)
 // k()
 
-let arr2=[1,2,3,4,'piyush','Raman','true']
+let arr2=[1,2,3,4,'piyush','Raman',true]
 
 // function filtering(){
 //     var res=[]
@@ -291,12 +291,15 @@ console.log(get(arr2,getNumbers))
 
 
 function outer (){
-    let user='gla'
-    function inner (){
+    let user ='gla'
+    function inner(){
         console.log(user)
     }
+    // inner()
     return inner
 }
 
 let inner=outer()
-inner()
+console.log(inner())
+
+
