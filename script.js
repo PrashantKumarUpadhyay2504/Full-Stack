@@ -318,7 +318,7 @@ console.log("3")
 
 setTimeout(()=>{
     console.log("4")
-},4000)
+},1000)
 
 setTimeout(()=>{
     console.log("2")
