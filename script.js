@@ -330,34 +330,60 @@ console.log("5")
 
 // call back hell
 
-function step1(step2){
-   setTimeout(()=>{console.log('Photo selected!!')},4000) 
-}
+// function step1(step2){
+//    setTimeout(()=>{console.log('Photo selected!!')},4000) 
+// }
 
-function step2(){
-    setTimeout(()=>{
-        console.log("filter apply ho chuka hain")
-        return 'fiterInteger'
-    },3000)
-    step1(()=>{
-        step2()
-    })
-}
+// function step2(){
+//     setTimeout(()=>{
+//         console.log("filter apply ho chuka hain")
+//         return 'fiterInteger'
+//     },3000)
+//     step1(()=>{
+//         step2()
+//     })
+// }
 
-function step3(){
-    setTimeout(()=>{
-        console.log("Caption ho gya ")
-        return 'captionImage'
-    },2000)
-}
+// function step3(){
+//     setTimeout(()=>{
+//         console.log("Caption ho gya ")
+//         return 'captionImage'
+//     },2000)
+// }
 
-function step4(){
-    setTimeout(()=>{
-        console.log('uploaded')
-    },2000)
-}
+// function step4(){
+//     setTimeout(()=>{
+//         console.log('uploaded')
+//     },2000)
+// }
 
-var Image = step1()
-let filteredImage = step2(Image)
-let captionImage = step3(filteredImage)
-step4(captionImage)
+// var Image = step1()
+// let filteredImage = step2(Image)
+// let captionImage = step3(filteredImage)
+// step4(captionImage)
+
+// Promises
+
+let prom = new Promise((resolve,reject)=>{
+    // resolve('resolve')
+    // reject('reject')
+    
+    let isbool=true
+    if(isbool){
+        resolve('resolve')
+    }else{
+        reject('reject')
+    }
+    
+})
+// For resolve :- 
+prom.then((data)=>{
+    console.log(data)
+})
+
+// for reject :- 
+prom.then((data)=>{
+    console.log(data)
+}).catch((err)=>{
+    console.log(err)
+})
