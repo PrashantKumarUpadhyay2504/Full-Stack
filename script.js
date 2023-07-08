@@ -207,8 +207,8 @@ add()
 
 
 {
-    const a1=90
-    let b=5
+    const a1=90;
+    let b=5;
 }
 
 // console.log(a1)
